@@ -42,14 +42,11 @@ h1 {
   color: #252525;
 }
 
-/* main content */
-main {
-  background-color: lightblue;
-  /* Make main element take up any suples space to push footer down */
-  flex: 1 0 auto;
-  margin-top: 47px;
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style-type: none;
 }
-
 
 #menu > li {
   margin-bottom: 1em;
@@ -84,14 +81,17 @@ nav {
   font-size: 2rem;
 }
 
+/* main content */
+main {
+  background-color: lightblue;
+  /* Make main element take up any suples space to push footer down */
+  flex: 1 0 auto;
+  margin-top: 47px;
+}
+
 /* footer */
 footer {
   background-color: orange;
-}
-#menu {
-  font-size: 110%;
-  letter-spacing: 4px;
-  list-style-type: none;
 }
 
 /* media query: tablets ang larger (768px and up) */
@@ -110,6 +110,7 @@ footer {
   }
 
   #menu > li {
+    padding-bottom: 1rem;
     padding-left: 1rem;
   }
 
@@ -125,6 +126,13 @@ footer {
 
   main {
     /* Push main content to accomodate larger header */
-     margin-top: 79px;
+    margin-top: 79px;
+  }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  #menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
   }
 }
