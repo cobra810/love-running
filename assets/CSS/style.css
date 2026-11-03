@@ -1,0 +1,21 @@
+/* Asterisk wildcard selector to overside default style added by browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: rgb(235, 73, 73);
+}
+
+/* main content */
+main {
+    background-color: lightblue;
+}
+
+/* footer */
+footer {
+    background-color: orange;
+}
