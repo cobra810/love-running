@@ -163,6 +163,13 @@ main {
     max-height: 300px;
 }
 
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
